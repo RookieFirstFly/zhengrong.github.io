@@ -1,0 +1,55 @@
+#main{max-width: 640px;margin: auto;}
+.index_nav,.index_footer{max-width: 640px;}
+.row{margin-right: 0;margin-left: 0;}
+.panel{margin-bottom: 5px;} 
+.panel-heading{padding: 5px 15px;background-color: rgba(190, 158, 127, 0.24) !important;}
+.panel-heading a{color: #BE9E7F}
+.panel-body{padding: 6px 0px !important;}
+body{font-size: 14px;font-family: "微软雅黑";}
+/****************************公共部分***************************/
+.media-body a{color: #000;}
+.media a{color: #000;}
+a:hover {color: #000;text-decoration:none}
+.list-group-item a{color: #000;}
+/*头部*/
+.index_header{text-align: center;}
+.index_header .row{height: 40px;line-height: 40px;}
+.index_header .row div a{display: inline-block;vertical-align: middle;}
+.index_header .row div:last-child a{color: #666}
+/*导航*/
+.index_nav .row{height: 30px;line-height: 30px;background-color: #BE9E7F;}
+.index_nav .row div{border-right: 1px solid #fff;text-align: center;}
+.index_nav .row div:last-child{border-right: none;}
+.index_nav .row a{color: #fff}
+/*轮播*/
+.banner_i{font-size: 40px;padding-top: 47px;}
+/*版权*/
+.banquan{background-color: #f0f0f0;text-align: center;height: 86px;padding-bottom: 125px;}
+.banquan p{font-size: 10px;color: #bfbfbf;padding: 5px;}
+/*底部导航*/
+.index_footer{height: 40px;line-height: 40px;background-color: #BE9E7F;text-align: center;position: fixed;bottom: 0;width: 100%}
+.index_footer a{color: #333}
+/****************************内容部分***************************/
+/*公司简介*/
+.comp_p a{color: #666}
+.comp_p p{width: 90%;margin: auto;text-indent: 2em}
+/*热门项目*/
+.index_item div{margin-bottom: 15px;text-align: center;}
+.index_item div a{color: #666}
+/*公司简介详细*/
+.comp_item div{margin-bottom: 1px;padding-right: 1px;padding-left: 1px;}
+/*热门项目列表*/
+.item_pic{width: 25%}
+/*专家详细*/
+.zj_pic{padding: 1px 0px !important;}
+.comp_p h1,.comp_p h4{text-align: center;margin-top: 0px;margin-bottom: 10px;font-size: 32px;color: #BE9E7F}
+.comp_p h4{font-size: 20px;}
+.zj_pic2{padding: 13px 0px !important;}
+/*项目详细*/
+.hot_title h1{font-size: 27px;}
+.hot_title h4{font-size: 14px;color: #666}
+.comp_p h5{text-align: center;margin-top: 0px;margin-bottom: 10px;font-size: 15px;color: #BE9E7F}
+/*新闻详细*/
+.news_t h1{font-size: 20px;font-weight: bold;color: #666}
+.new_p{padding: 1px 0px !important;}
+

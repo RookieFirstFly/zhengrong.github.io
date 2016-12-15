@@ -1,246 +1,37 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta name="viewport" content="width=device-width,maximum-scale=1.0, user-scalable=no">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<script src="js/jquery.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-	<body>	
-		<div id="main">
-			<!------------------ 公共头分 ------------------>
-			<!-- 头部 -->
-			<div class="index_header">
-				<div class="row">
-					<div class="col-xs-6">
-						<a href="">
-							<img src="img/logo.png" class="img-responsive">
-						</a>
-					</div>
-					<div class="col-xs-6">
-						<span class="glyphicon glyphicon-phone-alt"></span>
-						<a href="tel:15100284122">15100284122</a>
-					</div>
-				</div>
-			</div>
-			<!-- 导航 -->
-			<div class="index_nav">
-				<div class="row">
-					<div class="col-xs-3">
-						<a href="index.html">首页</a>
-					</div>
-					<div class="col-xs-3">
-						<a href="hotObj.html">项目</a>					
-					</div>
-					<div class="col-xs-3">
-						<a href="news.html">热门</a>					
-					</div>
-					<div class="col-xs-3">
-						<a href="zhuanjia.html">专家</a>					
-					</div>
-				</div>
-			</div>
-			<!-- 轮播 -->
-			<div id="myCarousel" class="carousel slide">
-			   	<!-- 轮播（Carousel）指标 -->
-			   	<ol class="carousel-indicators">
-			      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			      	<li data-target="#myCarousel" data-slide-to="1"></li>
-			     		<li data-target="#myCarousel" data-slide-to="2"></li>
-			   	</ol>   
-			  	<!-- 轮播（Carousel）项目 -->
-			   	<div class="carousel-inner">
-			      	<div class="item active full_img">
-			         		<img src="img/2/weishi_bg.jpg" alt="First slide">
-			     		</div>
-				     <div class="item">
-				         	<img src="img/2/llq_bg.jpg" alt="Second slide">
-				     </div>
-				     <div class="item">
-				         <img src="img/2/shadu_bg.jpg" alt="Third slide">
-				     </div>
-			  	</div>
-			   	<!-- 轮播（Carousel）导航 -->
-			  	<a class="carousel-control left banner_i" href="#myCarousel" 
-			     		data-slide="prev">&lsaquo;</a>
-			  	<a class="carousel-control right banner_i" href="#myCarousel" 
-			    		data-slide="next">&rsaquo;</a>
-			</div> 
-			<!------------------ 内容部分 ------------------>
-			<!-- 公司简介 -->
-			<div class="panel panel-default index_comp">
-				<!-- title -->
-				<div class="panel-heading">
-					<a href="company.html"><h3 class="panel-title">公司简介</h3></a>
-				</div>
-				<!-- content -->
-				<div class="panel-body comp_p">
-					<a href="company.html">
-						<p>
-							始创于2007年始终秉承诚信、有爱和良父义务精神及“做中国最好的整形美容医院”的品牌愿景，
-							以顾客满意度为宗旨，接轨国际医疗标准，勇担行业自律先锋，全力打造高品质医疗服务体系，
-							更屡获“公众信赖品牌医院”称号并成为卫生部全国示范推广单位。
-							北京叶子始终注重品牌发展与专业医美精神的共融并济，
-							与美同行，塑美于世。
-						</p>
-					</a>
-				</div>
-			</div>
-			<!-- 热门项目 -->
-			<div class="panel panel-default index_obj">
-				<!-- 头部 -->
-				<div class="panel-heading obj_h3">
-					<a href="hotObj.html"><h3 class="panel-title">热门项目</h3></a>
-				</div>
-				<!-- 内容 -->
-				<div class="panel-body">
-					<div class="row index_item">
-						<div class="col-xs-4">
-			      			<a href="hotObj.html">
-			      				<img src="img/2/3-15031G12P1O8.jpg" class="img-responsive">
-			      				<span>数字化动感</span>
-			      			</a>
-			      		</div>
-			      		<div class="col-xs-4">
-			      			<a href="hotObj.html">
-			      				<img src="img/2/3-15031G13G3421.jpg" class="img-responsive">
-			      				<span>数字化动感</span>
-			      			</a>
-			      		</div>
-			      		<div class="col-xs-4">
-			      			<a href="hotObj.html">
-			      				<img src="img/2/3-15031G1220R34.jpg" class="img-responsive">
-			      				<span>数字化动感</span>
-			      			</a>
-			      		</div>
-			      		<div class="col-xs-4">
-			      			<a href="hotObj.html">
-			      				<img src="img/2/3-15031G12354639.jpg" class="img-responsive">
-			      				<span>数字化动感</span>
-			      			</a>
-			      		</div><div class="col-xs-4">
-			      			<a href="hotObj.html">
-			      				<img src="img/2/3-15031G13610G4.jpg" class="img-responsive">
-			      				<span>数字化动感</span>
-			      			</a>
-			      		</div><div class="col-xs-4">
-			      			<a href="hotObj.html">
-			      				<img src="img/2/3-15031G12431L4.jpg" class="img-responsive">
-			      				<span>数字化动感</span>
-			      			</a>
-			      		</div>
-					</div>
-				</div>
-			</div>
-			<!-- 专家介绍 -->
-			<div class="panel panel-default index_obj">
-				<!-- 头部 -->
-				<div class="panel-heading obj_h3">
-					<a href="zhuanjia.html"><h3 class="panel-title">专家介绍</h3></a>
-				</div>
-				<!-- 内容 -->
-				<div class="panel-body">
-					<div id="myCarousel" class="carousel slide">					   	
-					  	<!-- 轮播（Carousel）项目 -->
-					   	<div class="carousel-inner">
-					      	<div class="item active full_img">
-					         		<img src="img/1/bg.jpg" alt="First slide">
-					     		</div>						    
-					  	</div>					   
-					</div> 
-				</div>
-				<div class="panel-body">
-					<div class="row index_item">
-						<div class="col-xs-4">
-			      			<a href="zhuanjia.html">
-			      				<img src="img/1/zj41112.png" class="img-responsive">
-			      				<span>赵教授</span>
-			      			</a>
-			      		</div>
-			      		<div class="col-xs-4">
-			      			<a href="zhuanjia.html">
-			      				<img src="img/1/zj41113.png" class="img-responsive">
-			      				<span>钱教授</span>
-			      			</a>
-			      		</div>
-			      		<div class="col-xs-4">
-			      			<a href="zhuanjia.html">
-			      				<img src="img/1/zj41114.png" class="img-responsive">
-			      				<span>孙教授</span>
-			      			</a>
-			      		</div>			      		
-			      		<div class="col-xs-4">
-			      			<a href="zhuanjia.html">
-			      				<img src="img/1/zj41115.png" class="img-responsive">
-			      				<span>李教授</span>
-			      			</a>
-			      		</div>
-			      		<div class="col-xs-4">
-			      			<a href="zhuanjia.html">
-			      				<img src="img/1/zj41116.png" class="img-responsive">
-			      				<span>周教授</span>
-			      			</a>
-			      		</div>
-			      		<div class="col-xs-4">
-			      			<a href="zhuanjia.html">
-			      				<img src="img/1/zj41117.png" class="img-responsive">
-			      				<span>吴教授</span>
-			      			</a>
-			      		</div>
-					</div>
-				</div>
-			</div>
-			<!-- 最新动态 -->
-			<div class="panel panel-default index_obj">
-				<!-- 头部 -->
-				<div class="panel-heading obj_h3">
-					<a href="news.html"><h3 class="panel-title">最新动态</h3></a>
-				</div>
-				<!-- 内容 -->
-				<ul class="list-group">
-				   <li class="list-group-item"><a href="news.html">CCTV专访叶子专家</a></li>
-				   <li class="list-group-item"><a href="news.html">中美专家隆胸手术定技术标杆</a></li>				  
-				   <li class="list-group-item">
-				      <span class="badge">3</span>
-				      <a href="news.html">全国形体雕塑与脂肪移植技</a>
-				   </li>
-				   <li class="list-group-item"><a href="news.html">美国整形外科董事会主席</a></li>
-				   <li class="list-group-item">
-				      <span class="badge">2</span>
-				      <a href="news.html">中韩整行美容国际技术交流会</a>
-				   </li>
-				</ul>
-			</div>
-			<!------------------ 公共底部 ------------------>
-			<!-- 版权 -->
-			<div class="banquan">
-				<p>Copyright © 2015 北京叶子整形美容医院 </p>
-				<p>（京）医广【2014】第07-18-0184号　京ICP备07504320号　京卫网审[2014]第0071号</p>
-			</div>
-			<!-- 底部导航 -->
-			<div class="index_footer">
-				<div class="row">
-					<div class="col-xs-3">
-						<span class="glyphicon glyphicon-earphone"></span>
-						<a href="tel:15100284122">电话</a>
-					</div>
-					<div class="col-xs-3">
-						<span class="glyphicon glyphicon-map-marker"></span>
-						<a href="map.html">地图</a>
-					</div>
-					<div class="col-xs-3">
-						<span class="glyphicon glyphicon-share"></span>
-						<a href="">分享</a>
-					</div>
-					<div class="col-xs-3">
-						<span class="glyphicon glyphicon-chevron-up"></span>
-						<a href="">顶部</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Zhengrong.GitHub.io by RookieFirstFly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Zhengrong.GitHub.io</h1>
+      <h2 class="project-tagline">整容首页</h2>
+      <a href="https://github.com/RookieFirstFly/zhengrong.github.io" class="btn">View on GitHub</a>
+      <a href="https://github.com/RookieFirstFly/zhengrong.github.io/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/RookieFirstFly/zhengrong.github.io/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="zhengronggithubio" class="anchor" href="#zhengronggithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>zhengrong.github.io</h1>
+
+<p>整容医院首页</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/RookieFirstFly/zhengrong.github.io">Zhengrong.GitHub.io</a> is maintained by <a href="https://github.com/RookieFirstFly">RookieFirstFly</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
 </html>
